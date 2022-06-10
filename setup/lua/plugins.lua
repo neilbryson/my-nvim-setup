@@ -3,7 +3,7 @@ return require('packer').startup(function(use)
     use {
         'kyazdani42/nvim-tree.lua',
         requires = {
-            'kyazdani42/nvim-webdevicons'
+            'kyazdani42/nvim-web-devicons'
         }
     }
     use 'editorconfig/editorconfig-vim'
@@ -17,5 +17,5 @@ return require('packer').startup(function(use)
         'akinsho/toggleterm.nvim',
         tag = 'v1.*'
     }
-    use 'rmehri01/onenord.vim'
+    use 'rmehri01/onenord.nvim'
 end)
