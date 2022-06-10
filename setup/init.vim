@@ -8,4 +8,4 @@ lua require('onenord').setup()
 " CODESTATS
 let g:codestats_api_key = ''
 let g:airline_section_x = airline#section#create_right(['tagbar', 'filetype', '%{CodeStatsXp()}'])
-:
+
