@@ -12,3 +12,7 @@
    * pynvim (`pip install nvim`)
 4. Input your [Code::Stats](https://codestats.net/) API key in [init.vim](setup/init.vim) `g:codestats_api_key`
 5. Open neovim and run `:PackerInstall`
+
+## Recommended coc plugins
+1. coc-tsserver
+2. coc-eslint
