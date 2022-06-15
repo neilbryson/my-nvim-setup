@@ -16,4 +16,5 @@ return require('packer').startup(function(use)
     use 'folke/tokyonight.nvim'
     use 'dyng/ctrlsf.vim'
     use 'junegunn/fzf'
+    use 'tpope/vim-fugitive'
 end)
