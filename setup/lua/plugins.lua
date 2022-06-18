@@ -1,6 +1,8 @@
 return require('packer').startup(function(use)
     use 'wbthomason/packer.nvim'
+    use 'neovim/nvim-lspconfig'
     use 'preservim/nerdtree'
+    use 'romgrk/barbar.vim'
     use 'editorconfig/editorconfig-vim'
     use 'https://gitlab.com/code-stats/code-stats-vim.git'
     use 'https://github.com/airblade/vim-gitgutter.git'
